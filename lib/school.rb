@@ -27,7 +27,6 @@ class School
         stus<<stu
       end
     end
-    stus.sort!
-    return stus
+    return stus.sort
   end
 end
