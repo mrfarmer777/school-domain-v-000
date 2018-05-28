@@ -31,4 +31,3 @@ class School
     return stus
   end
 end
-    
