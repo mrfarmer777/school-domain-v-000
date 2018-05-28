@@ -29,7 +29,7 @@ class School
         stus<<stu
       end
     end
-    binding.pry
+    #binding.pry
     return stus.sort
   end
 end
