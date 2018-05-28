@@ -1,4 +1,6 @@
 # code here!
+require 'pry'
+
 class School
   attr_accessor :roster
   attr_reader :name
@@ -27,6 +29,7 @@ class School
         stus<<stu
       end
     end
+    binding.pry
     return stus.sort
   end
 end
