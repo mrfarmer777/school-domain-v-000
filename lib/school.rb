@@ -24,8 +24,8 @@ class School
 
   def sort
     stus=[]
-    @roster.each do |gr|
-      gr.each do |stu|
+    @roster.each do |gr,student_array|
+      student_array.each do |stu|
         stus<<stu
       end
     end
