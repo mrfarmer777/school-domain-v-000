@@ -22,11 +22,11 @@ class School
     @roster[gr]
   end
 
-  def sort    
+  def sort
     @roster.each do |gr,student_array|
       student_array.sort!
     end
     #binding.pry
-    return stus.sort
+    @roster
   end
 end
