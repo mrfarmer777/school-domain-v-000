@@ -22,12 +22,9 @@ class School
     @roster[gr]
   end
 
-  def sort
-    stus=[]
+  def sort    
     @roster.each do |gr,student_array|
-      student_array.each do |stu|
-        stus<<stu
-      end
+      student_array.sort!
     end
     #binding.pry
     return stus.sort
